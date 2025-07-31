@@ -13,12 +13,10 @@ This project reads a list of IP addresses and subnet masks, calculates CIDR info
 
 | File | Description |
 |------|-------------|
-| `subnet_analyzer.py` | Main script (subnet calculations + export) |
-| `visualize.py`       | Bar chart script (optional) |
+| `main.py` | Main script (subnet calculations + export) |
 | `Dockerfile`         | Docker container definition |
 | `ip_data.xlsx`       | Input dataset (provided) |
-| `subnet_report.csv`  | Generated output report |
-| `network_plot.png`   | Host distribution bar chart |
+| `out_report.csv`  | Generated output report |
 | `report.md`          | Answers to the analysis questions |
 | `README.md`          | Project documentation and instructions |
 
